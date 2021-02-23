@@ -1,5 +1,9 @@
 body {
     text-align: center;
+    background: url("../img/sfondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .menu-container {
@@ -9,7 +13,8 @@ body {
 
 #buttonDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 
 .navbuttons {
