@@ -101,3 +101,8 @@ p {
       opacity: 1;
     }
 }
+
+#gitlogo {
+    display: block;
+    width: 15%;
+}
