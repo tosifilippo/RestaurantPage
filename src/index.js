@@ -13,6 +13,6 @@ function handleEvents() {
     menuButton.addEventListener("click", loadMenuPage);
 }
 
-loadHomePage();
 loadButtons();
+loadHomePage();
 handleEvents();
