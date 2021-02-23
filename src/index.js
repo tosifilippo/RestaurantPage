@@ -1,1 +1,3 @@
-console.log("YEAH!");
+import loadHomePage from './modules/home-page.js';
+
+loadHomePage();

@@ -1,1 +1,1 @@
-console.log("YEAH!");
+(()=>{"use strict";!function(){const e=document.getElementById("content"),t=document.createElement("h1");t.innerHTML="PIPPO'S HOME KITCHEN";const n=document.createElement("img");n.setAttribute("src","img/barbecue.jpg"),n.setAttribute("alt","chicken barbecue"),n.setAttribute("width","1000");const c=document.createElement("p");c.innerHTML="lorem ipsum",e.appendChild(t),e.appendChild(n),e.appendChild(c)}()})();
