@@ -63,16 +63,16 @@ function loadMenuPage() {
     appetizerCaption.innerHTML = "APPETIZERS";
     appetizerDescription.appendChild(appetizerCaption);
     const firstDCaption = document.createElement("h2");
-    firstDCaption.innerHTML = "FIRST DISHES";
+    firstDCaption.innerHTML = "PASTA";
     firstDishesDescription.appendChild(firstDCaption);
     const secondDCaption = document.createElement("h2");
-    secondDCaption.innerHTML = "SECOND DISHES";
+    secondDCaption.innerHTML = "BBQ";
     secondDishesDescription.appendChild(secondDCaption);
     const dessertCaption = document.createElement("h2");
     dessertCaption.innerHTML = "DESSERTS";
     dessertsDescription.appendChild(dessertCaption);
     const drinkCaption = document.createElement("h2");
-    drinkCaption.innerHTML = "DRINKS";
+    drinkCaption.innerHTML = "COCKTAILS";
     drinksDescription.appendChild(drinkCaption);
 }
 

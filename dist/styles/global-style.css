@@ -65,6 +65,8 @@ img {
 
 .navbuttons:hover {
     text-decoration: underline;
+    transform: scale(1.2);
+    text-shadow: 3px 2px 5px #525959;
 }
 
 .navbuttons:focus {
