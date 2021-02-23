@@ -30,6 +30,7 @@ img {
     height: 320px;
     overflow: hidden;
     margin: 20px 0;
+    animation: appear 1s ease-in-out;
 }
 
 .food img {
@@ -84,8 +85,19 @@ p {
 .parabox {
     display: flex;
     place-content: center;
+    animation: appear 1s ease-in-out;
 }
 
 #content {
     text-align: -webkit-center;
+    animation: appear 1s ease-in-out;
+}
+
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }
