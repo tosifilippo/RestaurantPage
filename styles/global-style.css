@@ -1,3 +1,7 @@
+html {
+    font-family: 'Architects Daughter', cursive;
+}
+
 body {
     text-align: center;
     background: url("../img/sfondo.jpg");
@@ -8,6 +12,10 @@ body {
 
 h1 {
     font-size: 400%;
+}
+
+h2 {
+    font-size: 250%;
 }
 
 img {
@@ -52,15 +60,28 @@ img {
     border: transparent;
     outline: transparent;
     cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.navbuttons:hover {
+    text-decoration: underline;
+}
+
+.navbuttons:focus {
+    text-decoration: underline;
 }
 
 p {
-    font-size: xx-large;
-    margin-right: 30%;
-    margin-left: 30%;
+    font-size: 250%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.parabox {
+    display: flex;
+    place-content: center;
 }
 
 #content {
