@@ -74,9 +74,6 @@ function loadMenuPage() {
     const drinkCaption = document.createElement("h2");
     drinkCaption.innerHTML = "DRINKS";
     drinksDescription.appendChild(drinkCaption);
-    document.getElementById("contactButton").style.textDecoration = "none";
-    document.getElementById("menuButton").style.textDecoration = "underline";
-    document.getElementById("homeButton").style.textDecoration = "none";
 }
 
 export default loadMenuPage;
