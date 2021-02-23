@@ -9,7 +9,7 @@ function loadButtons() {
     homeButton.innerHTML = "HOME";
     homeButton.setAttribute("id", "homeButton");
     const contactButton = document.createElement("button");
-    contactButton.innerHTML = "CONTACT";
+    contactButton.innerHTML = "ABOUT";
     contactButton.setAttribute("id", "contactButton");
     const menuButton = document.createElement("button");
     menuButton.innerHTML = "MENU";
