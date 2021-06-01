@@ -1,2 +1,2 @@
 # restaurantpage
-Third project from the JavaScript full stack course from the Odin Project.
+Just a restaurant landing page.
